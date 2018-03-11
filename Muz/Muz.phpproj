@@ -16,10 +16,36 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="classes\Class1.php" />
+    <Compile Include="application\config\config.php" />
+    <Compile Include="application\controllers\home\IndexController.class.php" />
+    <Compile Include="application\models\UserModel.class.php" />
+    <Compile Include="application\views\home\Index.php" />
+    <Compile Include="framework\core\Controller.class.php" />
+    <Compile Include="framework\core\Framework.class.php" />
+    <Compile Include="framework\core\Loader.class.php" />
+    <Compile Include="framework\core\Model.class.php" />
+    <Compile Include="framework\database\Mysql.class.php" />
     <Compile Include="index.php" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="classes\" />
+    <Folder Include="application\" />
+    <Folder Include="application\config\" />
+    <Folder Include="application\controllers\" />
+    <Folder Include="application\controllers\admin\" />
+    <Folder Include="application\controllers\home\" />
+    <Folder Include="application\models\" />
+    <Folder Include="application\views\" />
+    <Folder Include="application\views\admin\" />
+    <Folder Include="application\views\home\" />
+    <Folder Include="framework\core\" />
+    <Folder Include="framework\database\" />
+    <Folder Include="framework\helpers\" />
+    <Folder Include="framework\libraries\" />
+    <Folder Include="public\" />
+    <Folder Include="framework\" />
+    <Folder Include="public\css\" />
+    <Folder Include="public\js\" />
+    <Folder Include="public\images\" />
+    <Folder Include="public\uploads\" />
   </ItemGroup>
 </Project>

@@ -1,5 +1,7 @@
 <?php
+require "framework/core/Framework.class.php";
 
-echo "Hello World, i am here!";
+
+Framework::run();
 
 ?>
